@@ -1,5 +1,5 @@
 # confidential-cat-project
-## Selenium IDE demo project
+## Demo Project: Selenium IDE (selenium-side-runner)
 
 猫的力量
 
