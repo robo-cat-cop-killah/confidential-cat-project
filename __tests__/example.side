@@ -1,6 +1,6 @@
 {
   "id": "8e43685a-112a-455b-a6b2-748a19071100",
-  "version": "1.1",
+  "version": "2.0",
   "name": "example",
   "url": "https://www.google.com",
   "tests": [{
@@ -19,8 +19,8 @@
       "command": "type",
       "target": "name=q",
       "targets": [
-        ["id=lst-ib","id"],
-        ["name=q","name"],
+        ["id=lst-ib", "id"],
+        ["name=q", "name"],
         ["css=#lst-ib", "css"],
         ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
         ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
