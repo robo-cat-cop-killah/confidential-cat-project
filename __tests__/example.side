@@ -55,19 +55,21 @@
       "target": "Selenium IDE · Open source record and playback test automation for the web",
       "targets": [],
       "value": ""
+    }, {
+      "id": "f255ad71-1cd7-40a5-98ed-2e7c8c175ebf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
     "id": "87b889f7-70eb-4a6c-a97b-297c27cbad73",
     "name": "checks",
     "parallel": false,
-    "timeout": 3000,
+    "timeout": 10000,
     "tests": ["58cc1d1f-7920-47ee-a0eb-336a3ebdf069"]
   }],
-  "urls": ["https://en.wikipedia.org/", "https://www.google.com/"],
-  "plugins": [{
-    "id": "nknickobkcecmkiiefhjmiaihliikohm",
-    "name": "Applitools",
-    "version": "1.0.0"
-  }]
+  "urls": ["https://en.wikipedia.org/", "https://www.google.com/"]
 }
