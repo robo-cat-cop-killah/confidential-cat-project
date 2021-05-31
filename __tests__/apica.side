@@ -1,0 +1,41 @@
+{
+  "id": "8e43685a-112a-455b-a6b2-748a19071100",
+  "version": "2.0",
+  "name": "apica",
+  "url": "https://www.apica.io",
+  "tests": [{
+    "id": "58cc1d1f-7920-47ee-a0eb-336a3ebdf069",
+    "name": "apica",
+    "commands": [{
+      "id": "161321ce-3c63-4283-989e-d20117a97eb8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9be15cb-6b4c-4b1e-87df-d67e01cdaed7",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "fa9bae47-4a7e-4e92-9e02-e6863c13aaf1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Apica: Service-level Assurance",
+      "targets": [],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "87b889f7-70eb-4a6c-a97b-297c27cbad73",
+    "name": "apica",
+    "parallel": false,
+    "timeout": 10000,
+    "tests": ["58cc1d1f-7920-47ee-a0eb-336a3ebdf069"]
+  }],
+  "urls": ["https://apica.io"],
+  "plugins": []
+}
