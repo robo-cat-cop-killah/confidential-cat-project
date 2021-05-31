@@ -49,19 +49,26 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "cc98a459-c3a9-4978-bafc-9e7ea54ea3d4",
+      "comment": "",
+      "command": "waitForElementNotPresent",
+      "target": "css=.g a[href='https://www.selenium.dev/selenium-ide/']",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e9be15cb-6b4c-4b1e-87df-d67e01cdaed7",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "5000"
+    }, {
       "id": "fa9bae47-4a7e-4e92-9e02-e6863c13aaf1",
       "comment": "",
       "command": "assertTitle",
       "target": "Selenium IDE · Open source record and playback test automation for the web",
       "targets": [],
-      "value": ""
-    }, {
-      "id": "f255ad71-1cd7-40a5-98ed-2e7c8c175ebf",
-      "comment": "",
-      "command": "close",
-      "target": "",
-      "targets": [],
-      "value": ""
+      "value": "30000"
     }]
   }],
   "suites": [{
@@ -71,5 +78,6 @@
     "timeout": 10000,
     "tests": ["58cc1d1f-7920-47ee-a0eb-336a3ebdf069"]
   }],
-  "urls": ["https://en.wikipedia.org/", "https://www.google.com/"]
+  "urls": ["https://en.wikipedia.org/", "https://www.google.com/"],
+  "plugins": []
 }
