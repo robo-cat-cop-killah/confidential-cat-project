@@ -2,7 +2,7 @@
   "id": "8e43685a-112a-455b-a6b2-748a19071100",
   "version": "2.0",
   "name": "example",
-  "url": "https://www.google.com",
+  "url": "https://www.apica.io",
   "tests": [{
     "id": "58cc1d1f-7920-47ee-a0eb-336a3ebdf069",
     "name": "example",
@@ -10,51 +10,9 @@
       "id": "161321ce-3c63-4283-989e-d20117a97eb8",
       "comment": "",
       "command": "open",
-      "target": "/webhp",
+      "target": "/",
       "targets": [],
       "value": ""
-    }, {
-      "id": "d6702ef2-8787-4252-9861-5aa28d65ab4e",
-      "comment": "",
-      "command": "type",
-      "target": "name=q",
-      "targets": [
-        ["id=lst-ib", "id"],
-        ["name=q", "name"],
-        ["css=#lst-ib", "css"],
-        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
-        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "selenium ide"
-    }, {
-      "id": "1b4d1d17-2e2e-4557-9cfa-260189c4b6a7",
-      "comment": "",
-      "command": "sendKeys",
-      "target": "name=q",
-      "targets": [
-        ["id=lst-ib", "id"],
-        ["name=q", "name"],
-        ["css=#lst-ib", "css"],
-        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
-        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "${KEY_ENTER}"
-    }, {
-      "id": "5628fe89-f130-40cb-b52e-244a41cd6516",
-      "comment": "",
-      "command": "click",
-      "target": "css=.g a[href='https://www.selenium.dev/selenium-ide/']",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "cc98a459-c3a9-4978-bafc-9e7ea54ea3d4",
-      "comment": "",
-      "command": "waitForElementNotPresent",
-      "target": "css=.g a[href='https://www.selenium.dev/selenium-ide/']",
-      "targets": [],
-      "value": "30000"
     }, {
       "id": "e9be15cb-6b4c-4b1e-87df-d67e01cdaed7",
       "comment": "",
@@ -66,18 +24,33 @@
       "id": "fa9bae47-4a7e-4e92-9e02-e6863c13aaf1",
       "comment": "",
       "command": "assertTitle",
-      "target": "Selenium IDE · Open source record and playback test automation for the web",
+      "target": "Apica: Service-level Assurance",
       "targets": [],
       "value": "30000"
+    }, {
+      "id": "60be3d49-3c7d-428b-80a1-e86f7bfaf371",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.handelsbanken.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6fd3087-c2ee-4cba-a366-3c56cc356947",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
-    "id": "87b889f7-70eb-4a6c-a97b-297c27cbad73",
-    "name": "checks",
+    "id": "8ad023be-53b9-41a4-87e8-0ea7d8220cca",
+    "name": "cat",
+    "persistSession": true,
     "parallel": false,
-    "timeout": 10000,
+    "timeout": 300,
     "tests": ["58cc1d1f-7920-47ee-a0eb-336a3ebdf069"]
   }],
-  "urls": ["https://en.wikipedia.org/", "https://www.google.com/"],
+  "urls": ["https://apica.io/"],
   "plugins": []
 }
