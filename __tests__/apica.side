@@ -1,11 +1,11 @@
 {
   "id": "8e43685a-112a-455b-a6b2-748a19071100",
   "version": "2.0",
-  "name": "apica",
+  "name": "example",
   "url": "https://www.apica.io",
   "tests": [{
     "id": "58cc1d1f-7920-47ee-a0eb-336a3ebdf069",
-    "name": "apica",
+    "name": "example",
     "commands": [{
       "id": "161321ce-3c63-4283-989e-d20117a97eb8",
       "comment": "",
@@ -27,15 +27,30 @@
       "target": "Apica: Service-level Assurance",
       "targets": [],
       "value": "30000"
+    }, {
+      "id": "60be3d49-3c7d-428b-80a1-e86f7bfaf371",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.handelsbanken.se",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6fd3087-c2ee-4cba-a366-3c56cc356947",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.com",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
-    "id": "87b889f7-70eb-4a6c-a97b-297c27cbad73",
-    "name": "apica",
+    "id": "8ad023be-53b9-41a4-87e8-0ea7d8220cca",
+    "name": "cat",
+    "persistSession": true,
     "parallel": false,
-    "timeout": 10000,
+    "timeout": 300,
     "tests": ["58cc1d1f-7920-47ee-a0eb-336a3ebdf069"]
   }],
-  "urls": ["https://apica.io"],
+  "urls": ["https://apica.io/"],
   "plugins": []
 }
